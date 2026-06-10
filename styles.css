@@ -1,0 +1,82 @@
+body {
+  background-color: darkslateGray;
+  padding: 5rem;
+}
+
+br {
+  line-height: 2rem;
+}
+
+
+p {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  margin: 0.5em 0.5em 0.5em;
+}
+
+#welcomeHeader {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 10rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: darkseaGreen;
+  text-align: center;
+  line-height: 1.1;
+  margin: 1em 0.5em 0.5em;
+}
+
+#welcomeMessage {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: darkseaGreen;
+  text-align: center;
+  margin: 0.5em 0.5em 0.5em;
+}
+
+h2 {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  width: 85%;
+  margin: 0.5rem 5rem 0.5rem;
+}
+
+.whiteBg {
+  background-color: aliceBlue;
+}
+
+.lightGreenBg {
+  background-color: darkseaGreen;
+}
+
+.darkBg {
+  margin: 0.5rem 5rem 0.5rem;
+}
+
+.darkText {
+  color: #1A2B1F;
+}
+
+.lightText {
+  color: aliceBlue;
+}
+
+container {
+  background-color: #1A1D1F;
+  box-shadow: 0 0 8px aliceBlue;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  padding: 1rem 10rem 5rem;
+  margin: 1em 5em 1em;
+}
