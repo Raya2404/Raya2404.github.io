@@ -1,6 +1,6 @@
 body {
   background-color: darkslateGray;
-  padding: 5rem;
+  padding: 0;
 }
 
 br {
@@ -71,12 +71,16 @@ hr {
 
 container {
   background-color: #1A1D1F;
-  box-shadow: 0 0 8px aliceBlue;
-  border-radius: 1rem;
+  box-shadow: 0 0px 8px lightcyan;
+  border-radius: 2rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   display: flex;
   padding: 1rem 10rem 5rem;
-  margin: 1em 5em 1em;
+  margin: 0.5rem 10% 0.5rem;
+}
+
+container:hover {
+  box-shadow: 0 0 16px lightcyan;
 }
