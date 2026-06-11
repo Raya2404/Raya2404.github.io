@@ -1,5 +1,6 @@
 body {
   background-color: aliceBlue;
+  font-size: clamp(8px, 1vw, 24px);
   padding: 0;
 }
 
@@ -14,10 +15,22 @@ p {
   margin: 0.5em 0.5em 0.5em;
 }
 
+h2 {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
 #welcomeHeader {
   font-family: 'Inter', 'Segoe UI', sans-serif;
   font-weight: 700;
-  font-size: 10rem;
+  font-size: 10vw;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #1D2B1F;
@@ -25,6 +38,12 @@ p {
   line-height: 1.1;
   padding: 0;
   margin: 1em 0.5em 0.5em;
+}
+
+#welcomeHeaderline {
+  width: 80vw;
+  height: 2px;
+  background-color: #1D2B1F;
 }
 
 #welcomeMessage {
@@ -61,24 +80,6 @@ p {
   margin: 0.5em 15% 0.5em;
 }
 
-h2 {
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-weight: 700;
-  font-size: 2em;
-}
-
-h3 {
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-weight: 700;
-  font-size: 1.5em;
-}
-
-hr {
-  border: none;
-  height: 2px;
-  width: 90%;
-  margin: 0.5rem 5rem 0.5rem;
-}
 
 .projectContainer {
   text-decoration: none;
