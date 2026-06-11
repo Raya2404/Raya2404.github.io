@@ -1,12 +1,11 @@
 body {
-  background-color: darkslateGray;
+  background-color: aliceBlue;
   padding: 0;
 }
 
 br {
   line-height: 2rem;
 }
-
 
 p {
   font-family: 'Inter', 'Segoe UI', sans-serif;
@@ -21,9 +20,10 @@ p {
   font-size: 10rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: darkseaGreen;
+  color: #1D2B1F;
   text-align: center;
   line-height: 1.1;
+  padding: 0;
   margin: 1em 0.5em 0.5em;
 }
 
@@ -31,9 +31,34 @@ p {
   font-family: 'Inter', 'Segoe UI', sans-serif;
   font-weight: 400;
   font-size: 2em;
-  color: darkseaGreen;
+  color: #1D2B1F;
   text-align: center;
   margin: 0.5em 0.5em 0.5em;
+}
+
+#projectsHeaderContainer {
+  width: fit-content;
+  border-radius: 1em;
+  box-shadow: -3px 3px 4px #1D2B1F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 2.5em 0.5em;
+  margin: 0.5em 15% 0.5em;
+}
+
+#projectsHeaderContainer:hover {
+  box-shadow: -1px 1px 2px #1D2B1F;
+}
+
+#ProjectsHeader {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  display: block;
+  white-space: nowrap;
+  color: #1D2B1F;
+  margin: 0.5em 15% 0.5em;
 }
 
 h2 {
@@ -42,11 +67,37 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
 hr {
   border: none;
   height: 2px;
-  width: 85%;
+  width: 90%;
   margin: 0.5rem 5rem 0.5rem;
+}
+
+.projectContainer {
+  text-decoration: none;
+  display: block;
+  background-color: aliceBlue;
+  border: 1px solid gray;
+  box-shadow: -3px 3px 4px #1D2B1F;
+  color: #1D2B1F;
+  border-radius: 1em;
+  padding: 1em 3em 2em;
+  margin: 2rem 15% 2rem;
+}
+
+.projectContainer:hover {
+  box-shadow: -1px 1px 2px #1D2B1F;
+  background-color: #1D2B1F;
+  border: none;
+  color: aliceBlue;
+  box-shadow: 0 0 8px white;
 }
 
 .whiteBg {
@@ -58,7 +109,7 @@ hr {
 }
 
 .darkBg {
-  margin: 0.5rem 5rem 0.5rem;
+  background-color: #1A2B1F;
 }
 
 .darkText {
@@ -67,20 +118,4 @@ hr {
 
 .lightText {
   color: aliceBlue;
-}
-
-container {
-  background-color: #1A1D1F;
-  box-shadow: 0 0px 8px lightcyan;
-  border-radius: 2rem;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-  padding: 1rem 10rem 5rem;
-  margin: 0.5rem 10% 0.5rem;
-}
-
-container:hover {
-  box-shadow: 0 0 16px lightcyan;
 }
