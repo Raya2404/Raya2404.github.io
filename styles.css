@@ -1,11 +1,11 @@
 body {
   background-color: aliceBlue;
-  font-size: clamp(8px, 1vw, 24px);
+  font-size: clamp(10px, 1vw, 24px);
   padding: 0;
 }
 
 br {
-  line-height: 2rem;
+  line-height: 5vh;
 }
 
 p {
@@ -37,7 +37,7 @@ h3 {
   text-align: center;
   line-height: 1.1;
   padding: 0;
-  margin: 1em 0.5em 0.5em;
+  margin: 25vh 0.5em 0.5em;
 }
 
 #welcomeHeaderline {
