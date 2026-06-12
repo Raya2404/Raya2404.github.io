@@ -9,7 +9,7 @@ body {
 }
 
 br {
-  line-height: 2rem;
+  line-height: 5vh;
 }
 
 p {
@@ -41,7 +41,7 @@ h3 {
   text-align: center;
   line-height: 1.1;
   padding: 0;
-  margin: 25vh 0.5em 0.5em;
+  margin: 30vh 0.5em 0.5em;
 }
 
 #welcomeHeaderline {
@@ -84,6 +84,10 @@ h3 {
   margin: 0.5em 15% 0.5em;
 }
 
+#projectsHeaderSpacing {
+  line-height: 2rem;
+}
+
 .projectContainer {
   text-decoration: none;
   display: block;
@@ -92,12 +96,12 @@ h3 {
   box-shadow: -3px 3px 4px #1D2B1F;
   color: #1D2B1F;
   border-radius: 1em;
-  padding: 1em 3em 2em;
+  padding: 1em 4rem 2em;
   margin: 2rem 15% 2rem;
 }
 
 .projectContainer:hover {
-  box-shadow: -1px 1px 2px #1D2B1F;
+  box-shadow: -3px 3px 4px aliceBlue;
   background-color: #1D2B1F;
   border: none;
   color: aliceBlue;
