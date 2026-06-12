@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: aliceBlue;
+  background-color:#F9F6EE;
   font-size: clamp(10px, 1.2vw, 24px);
   padding: 0;
 }
@@ -62,6 +62,7 @@ h3 {
 #projectsHeaderContainer {
   width: fit-content;
   border-radius: 1em;
+  background-color:beige;
   box-shadow: -3px 3px 4px #1D2B1F;
   display: flex;
   flex-direction: column;
@@ -91,7 +92,7 @@ h3 {
 .projectContainer {
   text-decoration: none;
   display: block;
-  background-color: aliceBlue;
+  background-color:beige;
   border: 1px solid gray;
   box-shadow: -3px 3px 4px #1D2B1F;
   color: #1D2B1F;
@@ -101,10 +102,10 @@ h3 {
 }
 
 .projectContainer:hover {
-  box-shadow: -3px 3px 4px aliceBlue;
+  box-shadow: -3px 3px 4px #FFFFF0;
   background-color: #1D2B1F;
   border: none;
-  color: aliceBlue;
+  color: #FFFFF0;
   box-shadow: 0 0 8px white;
 }
 
@@ -113,5 +114,5 @@ h3 {
 }
 
 .lightText {
-  color: aliceBlue;
+  color: #FFFFF0;
 }
