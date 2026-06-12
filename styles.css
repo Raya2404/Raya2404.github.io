@@ -1,6 +1,10 @@
+:root {
+  font-size: clamp(10px, 1.2vw, 20px);
+}
+
 body {
   background-color: aliceBlue;
-  font-size: clamp(10px, 1vw, 24px);
+  font-size: clamp(10px, 1.2vw, 24px);
   padding: 0;
 }
 
@@ -11,14 +15,14 @@ br {
 p {
   font-family: 'Inter', 'Segoe UI', sans-serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: clamp(10px, 1.3em, 24px);
   margin: 0.5em 0.5em 0.5em;
 }
 
 h2 {
   font-family: 'Inter', 'Segoe UI', sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: clamp(12px, 2em, 28px);
 }
 
 h3 {
@@ -80,6 +84,9 @@ h3 {
   margin: 0.5em 15% 0.5em;
 }
 
+#projectsHeaderSpacing {
+  line-height: 2rem;
+}
 
 .projectContainer {
   text-decoration: none;
@@ -99,18 +106,6 @@ h3 {
   border: none;
   color: aliceBlue;
   box-shadow: 0 0 8px white;
-}
-
-.whiteBg {
-  background-color: aliceBlue;
-}
-
-.lightGreenBg {
-  background-color: darkseaGreen;
-}
-
-.darkBg {
-  background-color: #1A2B1F;
 }
 
 .darkText {
