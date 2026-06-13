@@ -3,6 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>
+    if (window.innerWidth < 768)
+    {
+      window.location.href = "mobile.html";
+    }
+  </script>
+
   <link rel="stylesheet" href="styles.css">
   <title>Raya</title>
 </head>
@@ -11,7 +19,6 @@
     <p>Raya</p>
 
     <ul>
-      <li><a href="#welcomeHeader">Home</a></li>
       <li><a href="#contactInfoContainer">Contact</a></li>
       <li><a href="#projectsHeader">Projects</a></li>
     </ul>
@@ -24,7 +31,6 @@
     <br><br><br><br><br>
 
     <hr>
-    <br>
 
 
 
@@ -60,7 +66,7 @@
       <h2 id="contactHeader">Contact Info</h2>
       <ul>
         <li>
-          <a href="https://github.com/Raya2404/" target="_blank">
+          <a href="https://github.com/Raya2404/" target="_blank" class="button">
             <img src="github.png" alt="Error.. ">
             Github
           </a>

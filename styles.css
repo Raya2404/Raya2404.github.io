@@ -11,7 +11,7 @@
 
 nav{
     font-size: clamp(0.8rem, 1vw, 2rem);
-    background-color:black;
+    background-color:#060D0D;
     box-shadow: 0 0 6px #919191;
     transition:0.3s;
     width: clamp(70vw, 60em, 100vw);
@@ -46,14 +46,14 @@ a{
 
 body{
     font-family: Inter, sans-serif;
-    background:#151919;
+    background:#0D1212;
     color:white;
 }
 
 #welcomeHeader{
     font-size:clamp(4em, 8em, 10vw);
     text-transform:uppercase;
-    letter-spacing:0.5rem;
+    letter-spacing:0.3em;
     margin:10rem 0 0;
 }
 
@@ -65,7 +65,7 @@ body{
 
 #contactInfoContainer{
   color:#919191;
-  margin: 5rem 0;
+  margin: 10rem 0 2rem;
 }
 
 #contactInfoContainer h2{
@@ -78,37 +78,16 @@ body{
   gap: 1.5em;
 }
 
-#contactInfoContainer a{
-  display: inline-flex;
-  align-items: center;
-  white-space: nowrap;
-  gap: 0.5em;
-  padding:1em 2em 1em;
-  background-color:#C2C2C2;
-  border-radius:0.5em;
-  color:black;
-  transition:0.3s;
-}
-
-#contactInfoContainer a:hover{
-  background-color:white;
-  box-shadow: 0 0 3px white;
-  color:black;
-  transition:0.3s;
-}
-
-#contactInfoContainer img{
-  width:1.5em;
-  height:1.5em;
-}
-
 #projectsHeader{
-  margin:5rem 0 2em;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  padding-top: 8rem;
+  margin:1rem 0 3em;
 }
 
 
 .projectContainer{
-  margin: 1em 0 1.5em;
+  margin: 3em 0 2em;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -130,7 +109,7 @@ body{
   font-size: clamp(0.75rem, 1em, 2vw);
   border-radius: 1em;
   color: black;
-  margin: auto 0 auto;
+  margin-top: 2.5em;
   padding: 0.5em 2em 0.5em;
   transition: 0.3s;
 }
@@ -148,4 +127,28 @@ br{
 hr{
   color:#494949;
   line-height:1px;
+}
+
+.button{
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: 0.5em;
+  padding:1em 2em 1em;
+  background-color:#C2C2C2;
+  border-radius:0.8em;
+  color:black;
+  transition:0.3s;
+}
+
+.button:hover{
+  background-color:white;
+  box-shadow: 0 0 3px white;
+  color:black;
+  transition:0.3s;
+}
+
+.button img{
+  width:1.5em;
+  height:1.5em;
 }
