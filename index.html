@@ -6,38 +6,70 @@
   <link rel="stylesheet" href="styles.css">
   <title>Raya</title>
 </head>
-
-
 <body>
-  <header>
-    <br>
+  <div class="container">
+    <nav>
+      <p>Raya</p>
+
+      <ul>
+        <li><a href="#welcomeHeader">Home</a></li>
+        <li><a href="#contactInfoContainer">Contact</a></li>
+        <li><a href="#projectsHeader">Projects</a></li>
+      </ul>
+    </nav>
+
     <h1 id="welcomeHeader">Hello</h1>
-    <hr id="welcomeHeaderline">
     <p id="welcomeMessage">Welcome to my personal website</p>
-
-    <br><br><br><br><br>
-    <br><br><br><br><br>
-    <br><br><br><br><br>  
-  </header>
   
+    <br><br><br><br><br>
 
-  <container id="projectsHeaderContainer">
-  <h2 class="darkText" id="ProjectsHeader">My Projects</h2>
-  </container>
+    <hr>
+    <br>
 
-  <br id="projectsHeaderSpacing">
 
-  <a class="projectContainer" href="https://github.com/Raya2404/ping-pong/">
-    <h3>Ping Pong game</h3>
-    <p>A simple recreation of the classic ping pong game with some added features.
-      Made using Godot 3.6 for android phones, featuring both single player and two-player modes
-    </p>
-  </a>
 
-  <a class="projectContainer" href="https://github.com/Raya2404">
-    <h3>Project 001</h3>
-    <p>Will be updated soon!</p>
-  </a>
+    <h2 id="projectsHeader">My Projects</h2>
 
+    <div>
+      <div class="projectContainer">
+        <div>
+          <h3>Ping Pong game</h3>
+          <p>A simple recreation of the classic ping pong game with additional feature.
+             Made with Godot 3.6 for android phones
+          </p>
+        </div>
+        <a href="https://github.com/Raya2404/ping-pong/">View Project</a>
+      </div>
+      <hr>
+
+      <div class="projectContainer">
+        <div>
+          <h3>Project 001</h3>
+          <p>Stay tuned for update</p>
+        </div>
+      </div>
+      <hr>
+
+    </div>
+
+
+
+    <br><br><br>
+
+    <div id="contactInfoContainer">
+      <h2 id="contactHeader">Contact Info</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/Raya2404/" target="_blank">
+            <img src="github.png" alt="Error.. ">
+            Github
+          </a>
+        </li>
+      </ul>
+
+      <p>Email: rayanandana2404@gmail.com</p>
+    </div>
+
+  </div>
 </body>
 </html>

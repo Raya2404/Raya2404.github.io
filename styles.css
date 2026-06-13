@@ -1,118 +1,148 @@
-:root {
-  font-size: clamp(10px, 1.2vw, 20px);
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-body {
-  background-color:#F9F6EE;
-  font-size: clamp(10px, 1.2vw, 24px);
-  padding: 0;
+.container{
+    width:70%;
+    margin:auto;
 }
 
-br {
-  line-height: 5vh;
+nav{
+    font-size: clamp(0.8rem, 1vw, 2rem);
+    background-color:black;
+    box-shadow: 0 0 6px #919191;
+    transition:0.3s;
+    display:flex;
+    border-radius:0 0 2em 2em;
+    justify-content:space-between;
+    align-items:center;
+    padding:1.5em 2em 1.5em;
 }
 
-p {
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-weight: 400;
-  font-size: clamp(10px, 1.3em, 24px);
-  margin: 0.5em 0.5em 0.5em;
+nav:hover{
+    box-shadow: 0 0 10px white;
+    transition:0.3s;
 }
 
-h2 {
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-weight: 700;
-  font-size: clamp(12px, 2em, 28px);
+nav p{
+    font-size:1.5em;
+    color:white;
 }
 
-h3 {
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-weight: 700;
-  font-size: 1.5em;
+ul{
+    display:flex;
+    list-style:none;
+    gap:2em;
 }
 
-#welcomeHeader {
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-weight: 700;
-  font-size: 10vw;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #1D2B1F;
-  text-align: center;
-  line-height: 1.1;
-  padding: 0;
-  margin: 30vh 0.5em 0.5em;
+a{
+    color:white;
+    text-decoration:none;
 }
 
-#welcomeHeaderline {
-  width: 80vw;
-  height: 2px;
-  background-color: #1D2B1F;
+body{
+    font-family: Inter, sans-serif;
+    background:#151919;
+    color:white;
 }
 
-#welcomeMessage {
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-weight: 400;
-  font-size: 2em;
-  color: #1D2B1F;
-  text-align: center;
-  margin: 0.5em 0.5em 0.5em;
+#welcomeHeader{
+    font-size:clamp(6rem, 8vw, 8rem);
+    text-transform:uppercase;
+    letter-spacing:0.5rem;
+    margin:10rem 0 0;
 }
 
-#projectsHeaderContainer {
-  width: fit-content;
-  border-radius: 1em;
-  background-color:beige;
-  box-shadow: -3px 3px 4px #1D2B1F;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+#welcomeMessage{
+  color:#919191;
+  font-size:clamp(1.2rem, 1.5vw, 3rem);
+  margin:1rem 0.5rem 5rem;
+}
+
+#contactInfoContainer{
+  color:#919191;
+  margin: 5rem 0;
+}
+
+#contactInfoContainer h2{
+  margin-bottom:1em;
+  color:white;
+}
+
+#contactInfoContainer ul{
+  margin:1em 0 1.5em;
+  gap: 1.5em;
+}
+
+#contactInfoContainer a{
+  display: inline-flex;
   align-items: center;
-  padding: 0.5em 2.5em 0.5em;
-  margin: 0.5em 15% 0.5em;
-}
-
-#projectsHeaderContainer:hover {
-  box-shadow: -1px 1px 2px #1D2B1F;
-}
-
-#ProjectsHeader {
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-weight: 700;
-  display: block;
   white-space: nowrap;
-  color: #1D2B1F;
-  margin: 0.5em 15% 0.5em;
+  gap: 0.5em;
+  padding:1em 2em 1em;
+  background-color:#C2C2C2;
+  border-radius:0.5em;
+  color:black;
+  transition:0.3s;
 }
 
-#projectsHeaderSpacing {
-  line-height: 2rem;
+#contactInfoContainer a:hover{
+  background-color:white;
+  box-shadow: 0 0 3px white;
+  color:black;
+  transition:0.3s;
 }
 
-.projectContainer {
-  text-decoration: none;
-  display: block;
-  background-color:beige;
-  border: 1px solid gray;
-  box-shadow: -3px 3px 4px #1D2B1F;
-  color: #1D2B1F;
+#contactInfoContainer img{
+  width:1.5em;
+  height:1.5em;
+}
+
+#projectsHeader{
+  margin:5rem 0 2em;
+}
+
+
+.projectContainer{
+  margin: 1em 0 1.5em;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.projectContainer h3{
+  margin:0 0 1em;
+  color: white;
+}
+
+.projectContainer p{
+  color:#919191;
+  padding-right: clamp(40px, 30vw, 1000px);
+}
+
+.projectContainer a{
+  background-color: #C2C2C2;
+  white-space: nowrap;
   border-radius: 1em;
-  padding: 1em 4rem 2em;
-  margin: 2rem 15% 2rem;
+  color: black;
+  margin: auto 0 auto;
+  padding: 0.5em 2em 0.5em;
+  transition: 0.3s;
 }
 
-.projectContainer:hover {
-  box-shadow: -3px 3px 4px #FFFFF0;
-  background-color: #1D2B1F;
-  border: none;
-  color: #FFFFF0;
-  box-shadow: 0 0 8px white;
+.projectContainer a:hover{
+  box-shadow: 0 0 4px white;
+  background-color: white;
+  transition: 0.3s;
 }
 
-.darkText {
-  color: #1A2B1F;
+br{
+  line-height:2rem;
 }
 
-.lightText {
-  color: #FFFFF0;
+hr{
+  color:#494949;
+  line-height:1px;
 }
